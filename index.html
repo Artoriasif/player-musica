@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Player Musica</title>
+</head>
+<body>
+   <img src="./img/rock-capa.jpg" alt="capa do album do AC/DC">
+   <div class="descricao">
+       <h2>Nome da música</h2>
+       <i>Nome do artista</i>
+   </div>
+   <div class="duracao">
+       <div class="barra">
+           <progress value="0.5" max="1">
+               <div class="ponto"></div>
+           </progress>
+       </div>
+       <div class="tempo">
+           <p class="inicio">0:00</p>
+           <p class="fim">02:59</p>
+       </div>
+   </div>
+   <div class="player">
+        <i class="fas fa-step-backward"></i>
+        <i class="fas fa-play-circle"></i>
+        <i class="fas fa-pause-circle"></i>
+        <i class="fas fa-step-forward"></i>
+   </div>
+   <audio src="./music/rock.mp3"></audio> 
+</body>
+</html>
